@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+.editor {
+	height: 100vh;
+	display: flex;
+	position: relative;
+}
+
+.editor-error {
+	height: 75vh;
+	display: flex;
+	position: relative;
+}
+
+#input, .output {
+	width: 50%;
+	margin: 0;
+	font-size: 20px;
+}
+
+.output {
+	border-left: 4px solid #eaeaea;
+	padding: 1em;
+}
+
+.feedback {
+	display: block;
+	height: 25vh;
+	overflow: auto;
+	background-color: salmon;
+	color: red;
+	font-size: 18px;
+	padding: 1em;
+}
+
+.error {
+
+}
+
+textarea:focus {
+	outline: 0;
+}

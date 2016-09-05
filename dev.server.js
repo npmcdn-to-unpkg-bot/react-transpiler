@@ -24,7 +24,7 @@ app.get('*', function (req, res) {
 	res.send(
 		`
 		<div id="root" />
-		<script src='https://npmcdn.com/babel-standalone@6/babel.min.js'></script>
+		<script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js'></script>
 		<script src="static/bundle.js"></script>
 		`
